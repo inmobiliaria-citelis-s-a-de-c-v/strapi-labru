@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "descubre_la_magias",
+  "info": {
+    "singularName": "descubre-la-magia",
+    "pluralName": "descubre-la-magias",
+    "displayName": "Descubre la magia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "picture_name": {
+      "type": "string",
+      "unique": true
+    },
+    "owner_email": {
+      "type": "email"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "media_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "owner_name": {
+      "type": "string"
+    },
+    "owner_telephone": {
+      "type": "string"
+    }
+  }
+}
