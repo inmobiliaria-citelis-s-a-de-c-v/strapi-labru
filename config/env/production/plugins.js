@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
       providerOptions: {
         bucketName: env('BUCKET_NAME'),
         publicFiles: true,
-        uniform: false,
+        uniform: true,
         serviceAccount: env.json('BUCKET_BASE_SERVICE_ACCOUNT'),// replace `{}` with your serviceAccount JSON object
         baseUrl: env('BUCKET_BASE_URL'),
         basePath: env('BUCKET_BASE_PATH'),
