@@ -38,6 +38,9 @@
     },
     "owner_telephone": {
       "type": "string"
+    },
+    "picture_location": {
+      "type": "string"
     }
   }
 }
